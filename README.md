@@ -92,11 +92,11 @@ The main project components include:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/VentureLens-AI.git
+git clone https://github.com/advikakhandelwal/VentureLens-AI.git
 cd VentureLens-AI
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username and update the repository URL if necessary.
+VentureLens AI repository: https://github.com/advikakhandelwal/VentureLens-AI
 
 ### 2. Create a virtual environment
 
@@ -170,3 +170,4 @@ VentureLens AI provides preliminary startup analysis for informational and decis
 ## Author
 
 Developed for the **ASI:One Agent Challenge — From Intent to Action**.
+
