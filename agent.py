@@ -1,12 +1,14 @@
-"""LaunchPilot AI - hosted agent bootstrap."""
 
 from uagents import Agent
+from protocols import venture_protocol
 
-from protocols import launchpilot_protocol
+agent = Agent(
+    name="venturelens_ai",
+    port=8000,
+    mailbox=True,
+)
 
-agent = Agent()
-
-agent.include(launchpilot_protocol, publish_manifest=True)
+agent.include(venture_protocol, publish_manifest=True)
 
 if __name__ == "__main__":
     agent.run()
