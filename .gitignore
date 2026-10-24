@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local secrets and agent state
+.env.*
+!.env.example
+private_keys.json
+agent1qdzf93k54x_data.json
+.avctl/
